@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-base",
+  "name": "@carpathian-ninjas/eslint-plugin-base",
   "version": "1.0.0",
   "description": "base eslint config for our projects",
   "keywords": [
