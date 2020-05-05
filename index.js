@@ -2,6 +2,9 @@ module.exports = {
   "env": {
     "node": true
   },
+  plugin: [
+    'graphql'
+  ],
   "extends": [
     "plugin:vue/essential",
     "@vue/standard",
