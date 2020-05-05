@@ -1,6 +1,6 @@
 {
   "name": "@carpathian-ninjas/eslint-plugin-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "base eslint config for our projects",
   "keywords": [
     "eslint",
@@ -19,5 +19,6 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "private": false
 }
