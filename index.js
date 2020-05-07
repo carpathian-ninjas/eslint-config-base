@@ -2,6 +2,7 @@ module.exports = {
   "env": {
     "node": true
   },
+  "repository": "git@github.com:carpathian-ninjas/eslint-config-base.git",
   "plugin": [
     "graphql"
   ],
