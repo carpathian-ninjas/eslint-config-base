@@ -2,13 +2,11 @@ module.exports = {
   "env": {
     "node": true
   },
-  plugin: [
-    'graphql'
+  "plugin": [
+    "graphql"
   ],
   "extends": [
-    "plugin:vue/essential",
-    "@vue/standard",
-    "@vue/airbnb"
+    "airbnb-base"
   ],
   "rules": {
     "import/extensions": [
@@ -160,45 +158,9 @@ module.exports = {
     "camelcase": "off",
     "arrow-parens": "off",
     "import/prefer-default-export": "off",
-    "vue/script-indent": [
-      "error",
-      2,
-      {
-        "baseIndent": 1
-      }
-    ],
-    "vue/html-indent": [
-      "error",
-      2,
-      {
-        "attribute": 1,
-        "baseIndent": 1,
-        "closeBracket": 0,
-        "alignAttributesVertically": true,
-        "ignores": []
-      }
-    ],
     "semi": [
       "error",
       "never"
-    ],
-    "lines-between-class-members": "off",
-    "class-methods-use-this": "off"
-  },
-  "overrides": [
-    {
-      "files": [
-        "*.vue"
-      ],
-      "rules": {
-        "indent": "off"
-      }
-    }
-  ],
-  "parserOptions": {
-    "parser": "babel-eslint",
-    "sourceType": "module",
-    "allowImportExportEverywhere": false,
-    "ecmaVersion": 2020
+    ]
   }
 }
